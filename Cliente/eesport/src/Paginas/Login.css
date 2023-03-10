@@ -1,0 +1,74 @@
+.loga {
+    /*background-color: #01012b;*/
+    background-image: url("../imagens/Fundo_Cima.gif");
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    position: fixed;
+}
+
+.LoginForm {
+    /*background-color: #01012b;*/
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10%;
+    color: #d4e8fc;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-shadow: 0px 4px 5px rgba(0, 0, 0, 0.8);
+    font-weight: bold;
+    /*border: solid 2px #05d9e8;*/
+}
+
+#Title {
+    font-size: 40px;
+    letter-spacing: 2px;
+    color: #ffffff;
+    font-family: 'Noto Serif';  
+}
+
+#Nick {
+    margin-top: 1%;
+    /*border-radius: 8px;*/
+}
+
+#Nick:hover {
+    margin-top: 1%;
+    /*border-radius: 8px;*/
+    transform: scale(1.12);
+}
+
+#Senha {
+    margin-top: 1%;
+    /*border-radius: 8px;*/
+}
+
+#Senha:hover {
+    margin-top: 1%;
+    /*border-radius: 8px;*/
+    transform: scale(1.12);
+}
+
+#EntrarBotao {
+    border-radius: 3px;
+    background-color: #292929;
+    letter-spacing: 1px;
+    opacity: 0.75;
+    color: #dbdbdb;
+    width: 100px;
+    height: 30px;
+    font-weight: bold;
+}
+
+#EntrarBotao:hover {
+    transform: scale(1.12);
+}
+
+.LinkRegistro {
+    color: #dbdbdb;
+}

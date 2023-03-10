@@ -1,0 +1,119 @@
+.Jogos 
+{
+    color: #05d9e8;
+    background-image: url("../imagens/Top_label_Partidas.png");
+    height: 100vh;
+    width: 100vw;
+    background-size: 100%;
+}
+
+.Lista 
+{
+    text-align: center;
+}
+
+#TimeA 
+{
+    text-shadow: 1px 2px 3px rgba(130, 0, 0, 1);
+    font-weight: bold;
+    width: 300px;
+    height: 200px;
+    text-align: left;
+    border-radius: 10px;
+    color: red;
+    position: absolute;
+}
+
+#TimeB 
+{
+    text-shadow: 1px 2px 3px rgba(0, 0, 150, 1);
+    font-weight: bold;
+    width: 300px;
+    height: 200px;
+    text-align: right;
+    border-radius: 10px;
+    color: blue;
+    position: absolute;
+}
+
+#X 
+{
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+    color: #dedede;
+    padding-left: 150px;
+    position: absolute;
+}
+
+#Data 
+{
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+    padding-left: 18%;
+    color: #dedede;
+    font-weight: bold;
+}
+
+#button
+{
+    padding-left: 30%;
+}
+
+#TituloJogos
+{
+    text-align: center;
+    color: #dedede;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+#SelectJogos {
+    margin-top: 30px;
+    padding-left: 5px;
+    border-radius: 3px;
+    background-color: #292929;
+    color: #dedede;
+    font-weight: bold;
+}
+
+#SelectJogos:hover
+{
+    transform: scale(1.06);
+}
+
+#DataJogo {
+    padding-left: 30px;
+    border-radius: 10px;
+    color: #292929;
+}
+
+#DataJogo:hover
+{
+    transform: scale(1.06);
+}
+
+.PesquisarJogosBotao {
+    padding-left: 5px;
+    border-radius: 3px;
+    background-color: #292929;
+    letter-spacing: 1px;
+    color: #dedede;
+    height: 30px;
+    width: 100px;
+    opacity: 0.75;
+    text-align: center;
+}
+
+.PesquisarJogosBotao:hover
+{
+    transform: scale(1.06);
+    font-weight: bold;
+}
+
+#TextJogo 
+{
+    color: #dedede;
+    font-weight: bold;
+}

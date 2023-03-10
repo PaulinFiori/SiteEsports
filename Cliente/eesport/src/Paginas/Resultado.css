@@ -1,0 +1,102 @@
+body 
+{
+    color: #05d9e8;
+    background-image: url("../imagens/Cross_label_Partidas.png");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.ResultadoDiv {
+    /*background-color: #01012b;*/
+    margin-left: 20%;
+    margin-right: 20%;
+    /*margin-top: 5%;*/
+    color: #05d9e8;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border-radius: 10px;
+    /*border: solid 2px red;*/
+    text-align: center;
+}
+
+#Lista 
+{
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    overflow: auto; 
+}
+
+#Titulo 
+{
+    margin-top: 10px;
+    text-align: center;
+    color: #dedede;
+}
+
+#SelectResultado 
+{
+    margin-top:30px;
+    padding-left: 5px;
+    border-radius: 3px;
+    background-color: #292929;
+    color: #dedede;
+    font-weight: bold;
+}
+
+#SelectResultado:hover
+{
+    transform: scale(1.06);
+}
+
+.DataResultado
+{
+    padding-left: 5px;
+    border-radius: 10px;
+    background-color: #01012b;
+    border-color: #05d9e8;
+    color: #05d9e8;
+}
+
+.DataResultado:hover
+{
+    transform: scale(1.06);
+}
+
+.PesquisarResultadoBotao
+{
+    letter-spacing: 1px;
+    opacity: 0.75;
+    padding-left: 5px;
+    background-color: #292929;
+    color: #dbdbdb;
+    height: 30px;
+    width: 100px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.PesquisarResultadoBotao:hover
+{
+    transform: scale(1.06);
+}
+
+#Partida 
+{
+    border-bottom-style: outset;
+    border-bottom-width: 1px;
+    margin-left: 20%;
+    margin-right: 20%;
+    color: #dbdbdb;
+    font-weight: bold;
+}
+
+#TextJogo
+{
+    color: #dedede;
+    font-weight: bold;
+}

@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+}
+
+.Chat {
+    background-image: url("../imagens/Chat_background.png");
+    height: 100vh;
+    width: 100vw;
+    background-size: 100%;
+    position: fixed;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    justify-content: space-between;
+    width: 100vw;
+}
+
+.form {
+    background: #01012b;
+    padding: 1rem;
+    position:absolute;
+    bottom:0;
+    border: 2px solid red;
+    width: 100%;
+}
+
+.form__field {
+    border: 1px solid #dcdcdc;
+    border-radius: 5px;
+    color: #333;
+    font-size: 1.2rem;
+    padding: .5rem 1rem;
+    width: 98rem;
+}
+
+.form__field:focus {
+    border-color: #a3f7ff;
+    box-shadow: 0 0 7px #a3f7ff;
+    outline: none;
+}
+
+.list {
+    margin: 0;
+    padding: 1rem;
+}
+
+.list__item {
+    list-style: none;
+}
+
+.list__item.list__item--mine {
+    text-align: right;
+}
+
+.messages--lista {
+    width: 100%;
+    border-color: #1abeff;
+    margin-bottom: 10px;
+    width: max-content;
+    padding: 10px;
+}
+
+.button-send {
+    background: black;
+    border-color: white;
+    height: 50px;
+    width: 100px;
+    margin-left: 10px;
+    right: 0;
+    color: white;
+}
+
+.btn-send {
+    background: black;
+    border: 2px solid white;
+    padding: 5px;
+    height: 200px;
+    width: 100px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.link-send {
+    color: white;
+    text-decoration: none;
+}

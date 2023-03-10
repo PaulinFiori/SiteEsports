@@ -1,0 +1,46 @@
+.header
+{
+    background-color: rgba(10, 10, 10, 1);
+    float: left;
+    display: inline;
+    position: fixed;
+    height: 100vh;
+    top: 0;
+}
+
+.header__link
+{
+    text-decoration: none;
+}
+
+.header__option {
+    color: #a1a1a1;
+    padding-left: 5px;
+    padding-right: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+.Header_Ativate {
+    color: #ffffff;
+    padding-left: 5px;
+    padding-right: 20px;
+    padding-top: 25px;
+    padding-bottom: 15px;
+    text-align: center;
+    background-color: #222222;
+}
+
+.header__info
+{
+    text-align: center;
+}
+
+#nomeheader
+{
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 15px;
+
+}

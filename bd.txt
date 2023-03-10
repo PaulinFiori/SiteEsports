@@ -1,0 +1,59 @@
+---Perfil---
+Foto blob
+Nickname(pk) varchar
+Senha varchar
+Email varchar
+Data_nascimento varchar
+------------
+
+---Jogos Favoritos---
+Id_Jogos(pk) int
+Nickname(fk) varchar
+Nome_jogos(fk) varchar
+---------------------
+
+---Resultados---
+Id_Resultado(pk) int
+Descricao varchar
+Data date
+Id_jogo(fk) varchar
+Vencedor varchar
+Pontuacao varchar
+----------------
+
+---Jogos----
+Id_Jogo(pk) int
+Nome_jogos varchar
+------------
+
+create table Perfil(
+Foto blob,
+Nickname varchar(50) not null,
+Senha varchar(50) not null,
+Email varchar(50),
+Data_nascimento varchar(50),
+Primary Key (Email));
+
+Create table Jogos(
+Id_Jogo integer not null,
+Nome_jogos varchar(50),
+Primary Key (Id_Jogo));
+
+Create table Jogos_Favoritos(
+Id_Jogos integer not null,
+Nickname varchar(50) not null,
+Id_Jogo integer not null,
+Nome_jogos varchar(50) not null,
+Primary Key(Id_Jogos),
+Foreign Key (Nickname) References Perfil(Nickname),
+Foreign Key (Id_Jogo) References Jogos(Id_Jogo));
+
+create table Resultados(
+Id_Resultado integer not null,
+Descricao varchar(50),
+Data date,
+Id_jogo integer not null,
+Vencedor varchar(50),
+Pontuacao varchar(20),
+Primary Key (Id_Resultado),
+Foreign Key (Id_jogo) References Jogos(Id_jogo));
